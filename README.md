@@ -1,11 +1,11 @@
 Game Mechanics:
 
-1.Display a basket (a simple rectangular element) at the bottom center of the game area.
-2.Generate fruits (e.g., circles or images) at the top of the game area, which will fall downwards.
-3.Move the basket horizontally using keyboard arrow keys (left and right) to catch the falling fruits.
-4.When a fruit touches the basket, increment the score.
-5.If a fruit reaches the bottom of the game area without being caught, decrement the score.
-6.The game ends after a certain time limit or when the score reaches a specific target.
+1. Display a basket (a simple rectangular element) at the bottom center of the game area.
+2. Generate fruits (e.g., circles or images) at the top of the game area, which will fall downwards.
+3. Move the basket horizontally using keyboard arrow keys (left and right) to catch the falling fruits.
+4. When a fruit touches the basket, increment the score.
+5. If a fruit reaches the bottom of the game area without being caught, decrement the score.
+6. The game ends after a certain time limit or when the score reaches a specific target.
 
 Implementation Steps:
 
