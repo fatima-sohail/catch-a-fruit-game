@@ -9,11 +9,11 @@ Game Mechanics:
 
 Implementation Steps:
 
-1.Set up the HTML structure with a container element for the game area and the basket element.
-2.Use CSS to style the game area, basket, and fruits.
-3.Add event listeners to the document to detect keyboard arrow key presses.
-4.Implement the logic to move the basket left or right based on the arrow key press events.
-5.Generate fruits at regular intervals using JavaScript and make them fall down using CSS animation or JavaScript animation.
-6.Detect collisions between the basket and fruits using their coordinates and update the score accordingly.
-7.Set a time limit or score target to determine when the game should end.
-8.Display the score and game-over message at the end of the game.
+1. Set up the HTML structure with a container element for the game area and the basket element.
+2. Use CSS to style the game area, basket, and fruits.
+3. Add event listeners to the document to detect keyboard arrow key presses.
+4. Implement the logic to move the basket left or right based on the arrow key press events.
+5. Generate fruits at regular intervals using JavaScript and make them fall down using CSS  animation or JavaScript animation.
+6. Detect collisions between the basket and fruits using their coordinates and update the score accordingly.
+7. Set a time limit or score target to determine when the game should end.
+8. Display the score and game-over message at the end of the game.
