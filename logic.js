@@ -1,6 +1,6 @@
 //we want to move basket horizontally using keyboard keys
 
-let currentPosition = window.innerWidth / 2
+let currentPosition;
 let horizontalMovement = function horizontalMovement(event) {
     let basket = document.getElementById('basket')
     // currentPosition = parseInt(basket.style.left) ;
@@ -16,19 +16,26 @@ let horizontalMovement = function horizontalMovement(event) {
     var screenWidth = window.innerWidth
     var divWidth = basket.offsetWidth
 
-    if(currentPosition < 0){
-        currentPosition = 0;
-    }else if(currentPosition + divWidth > screenWidth){
-        currentPosition = screenWidth-divWidth
+    
+    if(currentPosition <divWidth/2){
+        currentPosition = (divWidth/2);
+    }else if(currentPosition + (divWidth/2) > screenWidth){
+        currentPosition = screenWidth-(divWidth/2)
     }
 
     //update position of the basket
     basket.style.left = currentPosition + 'px'
 }
+
+let initialSetup = function initialSetup(){
+    currentPosition = window.innerWidth / 2
+}
 //create eventListener on element
 //eventListener needs an event to trigger function when left key is pressed on the keyboard
 //that event is called 'onkeydown' 
 document.addEventListener('keydown', horizontalMovement)
+document.addEventListener('DOMContentLoaded', initialSetup)
+
 
 
 
