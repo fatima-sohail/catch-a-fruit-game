@@ -13,8 +13,64 @@ body{
 }
 
 .fruit{
-     
+    
 }
+
+#fruit1{
+    background-image:url('./images/grapefruit-vector-png.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100px;
+    height: 200px;
+    position: absolute; 
+       
+}
+
+#fruit2{
+    background-image: url('./images/mango-vector-png.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#fruit3{
+    background-image: url('./images/pineapple-vector-jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+#fruit4{
+    background-image: url('./images/strawberry-fruits-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+#fruit5{
+    background-image: url('./images/apple.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-left: 800px;
+}
+
 
 h1{
     text-align: center;
