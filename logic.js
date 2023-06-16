@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', initialSetup)
 
 //we want to drop the first fruit vertically
 function fallFruit(){
-    var fruit = document.getElementById('fruit1')
+    var fruit = document.getElementById('fruit1', 'fruit2', 'fruit3', 'fruit4', 'fruit5');
     fruit.style.animation = 'fruitFallAnimation 3s'; //binds animation on button 
     fruit.style.animationPlayState = 'running';
 }
