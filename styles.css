@@ -2,36 +2,56 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #efb6d1;
+}
+
+
+h4{
+    text-align: center;
 }
 
 #gameContainer{
-    background: #efb6d1;
+    
     width: 100vw;
-    height: 100vh;
     margin: 0;
-    float: left;
+    /* float: left; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#startContainer{
+    text-align: center;
+    position: relative;
 }
 
 .fruit{
     
 }
 
+@keyframes fruitFallAnimation { 
+    0%  {top: 0vh;}
+    /* 50% {top: 10vh;} */
+    100% {top: 60vh; }
+}
+/* @keyframes bounce {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(0, 200px, 0); }
+} */
+
 #fruit1{
-    background-image:url('./images/grapefruit-vector-png.png');
+    background-image:url('./images/Grapefruit-Background-PNG.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: transparent;
     width: 100px;
-    height: 200px;
-    position: absolute; 
-       
+    height: 100px;
+    position: relative;
+     
 }
 
 #fruit2{
-    background-image: url('./images/mango-vector-png.png');
+    background-image: url('./images/Blackberry-Fruit-PNG-Image.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: transparent;
     width: 100px;
     height: 200px;
     position: absolute;
@@ -39,29 +59,29 @@ body{
 }
 
 #fruit3{
-    background-image: url('./images/pineapple-vector-jpg.jpg');
+    background-image: url('./images/Apple-Fruit-Download-PNG.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
     width: 100px;
-    height: 200px;
+    height: 100px;
     position: absolute;
     margin-left: 400px;
 }
 
 #fruit4{
-    background-image: url('./images/strawberry-fruits-free-vector.jpg');
+    background-image: url('./images/Pineapple-Free-PNG-Image.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
-    width: 100px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     margin-left: 600px;
 }
 
 #fruit5{
-    background-image: url('./images/apple.jpg');
+    background-image: url('./images/Strawberry-PNG-File.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -72,10 +92,6 @@ body{
 }
 
 
-h1{
-    text-align: center;
-    font-size:  50px;
-}
 
 #basket{
     width: 150px;

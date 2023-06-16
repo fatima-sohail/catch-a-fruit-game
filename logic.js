@@ -36,6 +36,15 @@ let initialSetup = function initialSetup(){
 document.addEventListener('keydown', horizontalMovement)
 document.addEventListener('DOMContentLoaded', initialSetup)
 
+//we want to drop the first fruit vertically
+function fallFruit(){
+    var fruit = document.getElementById('fruit1')
+    fruit.style.animation = 'fruitFallAnimation 3s'; //binds animation on button 
+    fruit.style.animationPlayState = 'running';
+}
+
+//when the fruit collides with the basket, that's +1 point
+
 
 
 
